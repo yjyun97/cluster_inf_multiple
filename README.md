@@ -21,7 +21,7 @@ The files that implement the proposed methods of the paper are located inside th
 
 The functions that implement the proposed methods of the paper can be found in the files named **functions_pval.R**, **functions_trunc.R**, **functions_helper.R**, and **functions_settings**. Specifically, 
 
-* **functions_pval.R** contains the functions that implement the proposed tests of Section 3.2, Section 4, Section 5.2.1, and Section 5.2.2, along with the baseline testing procedure of Seciton 3.1: the functions  **fun_p_sigma**, **fun_p_sigma_J**, **fun_p_star**, **fun_p_star_J**, and **fun_p_sigma_Bon** produce the p-values $p_\sigma$, $p_{\sigma,J}$, $p^*$,  $p^*_J$, and $p_{\sigma, \mathrm{Bon}}$,​​ respectively. These functions take the following arguments as inputs.
+* **functions_pval.R** contains the functions that implement the proposed tests of Section 3.2, Section 4, Section 5.2.1, and Section 5.2.2, along with the baseline testing procedure of Seciton 3.1: the functions  **fun_p_sigma**, **fun_p_sigma_J**, **fun_p_star**, **fun_p_star_J**, and **fun_p_sigma_Bon** produce the p-values $p_\sigma$, $p_{\sigma,J}$, $p^* $,  $p_J^* $, and $p_{\sigma, Bon}$,​​ respectively. These functions take the following arguments as inputs.
 
   * **X**: the data matrix of dimentions $n$ by $q$.
   * **res_Kmeans**: the result of running $K$-means clustering on $X$, using the function **kmeans_estimation** of the package **KmeansInference** written by the authors of Chen and Witten [2023].
@@ -30,7 +30,7 @@ The functions that implement the proposed methods of the paper can be found in t
 
   The functions **fun_p_sigma**, **fun_p_sigma_J**, and **fun_p_sigma_Bon** further take the arguement **ss,** which can be either $\sigma^2$​​ or its plug-in estimate. 
 
-* **functions_trunc.R** contains the functions that implement the sets $S_\sigma$, $S_{\sigma,\mathcal{V}}$, $S_J$, $S^*$, $S^*_\mathcal{V},$ and $S^*_J,$ which are used in the computation of the p-values in the functions in **functions_pval.R**. 
+* **functions_trunc.R** contains the functions that implement the sets $S_\sigma$, $S_{\sigma,\mathcal{V}}$, $S_J$, $S^* $, $S_{\mathcal{V}}^* ,$ and $S^*_J,$ which are used in the computation of the p-values in the functions in **functions_pval.R**. 
 
 * **functions_helper.R** contains helper functions that are called in the functions in **functions_trunc.R** and **functions_pval.R**. 
 
