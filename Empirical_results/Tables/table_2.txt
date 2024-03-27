@@ -1,0 +1,13 @@
+% latex table generated in R 4.3.2 by xtable 1.8-4 package
+% Wed Mar 20 12:16:37 2024
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & psample & pmed & psampleJ & pmedJ \\ 
+  \hline
+Setting 1 & 0.17 & 0.2 & 0.17 & 0.2 \\ 
+  Setting 2 & 0.17 & 0.17 & 0.17 & 0.17 \\ 
+   \hline
+\end{tabular}
+\end{table}
