@@ -26,7 +26,7 @@ The functions that implement the proposed methods of the paper can be found in t
   * **X**: the data matrix of dimentions $n$ by $q$.
   * **res_Kmeans**: the result of running $K$-means clustering on $X$, using the function **kmeans_estimation** of the package **KmeansInference** written by the authors of Chen and Witten [2023].
   * **choice_of_V**: the process by which $\mathcal{V}$ is chosen. *"all"* refers to $\mathcal{V}_{\mathrm{all}},$ *"pre"* refers to the setting where $\mathcal{V}$ is pre-specified, *"farthest"* and *"closest"* refer to the settings where $\mathcal{V}$​ is chosen in a data-dependent way according to Setting 1 and Setting 2, respectively, of Section 4. 
-  * **set_V**: a matrix of  dimensions 2 by $q$ whose columns consist of elements of $\mathcal{V}.$​ 
+  * **set_V**: a matrix of  dimensions 2 by $q$ whose columns consist of elements of $\mathcal{V}.$​
 
 The functions **fun_p_sigma**, **fun_p_sigma_J**, and **fun_p_sigma_Bon** further take the arguement **ss,** which can be either $\sigma^2$​​ or its plug-in estimate. 
 
