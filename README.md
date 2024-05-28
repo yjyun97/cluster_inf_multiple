@@ -1,6 +1,6 @@
 ### Summary
 
-This repository contains the codes used for producing the empirical results in the paper "Selective inference for multiple pairs of clusters after K-means clustering" (authors: Youngjoo Yun and Yinqiu He), available at [to be filled in]. 
+This repository contains the codes used for producing the empirical results in the paper "Selective inference for multiple pairs of clusters after K-means clustering" (authors: Youngjoo Yun and Yinqiu He), available at [https://arxiv.org/abs/2405.16379](https://arxiv.org/abs/2405.16379). 
 
 ### Citations 
 
